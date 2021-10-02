@@ -20,6 +20,3 @@ DNS
 
 Пример запуска:
       python server.py
-
-Зависимости:
-    pip install -r requirements.txt

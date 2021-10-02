@@ -7,5 +7,5 @@ requests = {
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 sock.settimeout(2)
-sock.sendto(requests['mail'], (DESTINATION, DNS_PORT))
+sock.sendto(requests['vk'], (DESTINATION, DNS_PORT))
 print('Request was sent')
